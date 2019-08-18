@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FindBookByIdServlet.java&apos; to &apos;bookstore/src/com.jyy.bookstore.servlet.ProductServlet&apos;&#x0D;&#x0A;- Original project: &apos;bookstore&apos;&#x0D;&#x0A;- Destination element: &apos;bookstore/src/com.jyy.bookstore.servlet.ProductServlet&apos;&#x0D;&#x0A;- Original element: &apos;com.jyy.bookstore.servlet.ProductServlet.FindBookByIdServlet.java&apos;" description="Copy compilation unit" destination="/src&lt;com.jyy.bookstore.servlet.ProductServlet" element1="/src&lt;com.jyy.bookstore.servlet.ProductServlet{FindBookByIdServlet.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1554277215313" units="1" version="1.0"/>
+</session>

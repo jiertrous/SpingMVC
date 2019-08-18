@@ -1,0 +1,48 @@
+package com.gyf.bookstore.web.servlet;
+
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.beanutils.BeanUtils;
+
+import com.gyf.bookstore.model.User;
+import com.mchange.v2.beans.BeansUtils;
+import com.sun.net.httpserver.HttpServer;
+
+@WebServlet("/register")
+public class RegisterServlet  extends HttpServlet{
+	
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+
+		//1.吧参数转成bean，model
+		User user = new User();
+		try {
+			BeanUtils.populate(user, request.getParameterMap());
+		} catch (Exception e) {
+			System.out.println("转模型失败");
+			e.printStackTrace();
+		}
+		
+		
+		//2.注册
+		
+		//3.返回结果
+		//3.1注册成功 进入成功页面
+		//3.2注册失败，进入注册页面
+		
+		
+	}
+
+	private Object getParameterMap() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

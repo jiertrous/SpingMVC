@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/Apr/2019:10:47:54 +0800] "GET / HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:48:19 +0800] "GET /bookstore/ HTTP/1.1" 200 6673
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:48:19 +0800] "GET /bookstore/bookcover/travelbook.jpg HTTP/1.1" 404 1115
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:48:19 +0800] "GET /bookstore/bookcover/java2.jpg HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:48:22 +0800] "GET /bookstore/myaccount HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:48:22 +0800] "GET /bookstore/login.jsp HTTP/1.1" 200 8192
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:48:30 +0800] "GET /bookstore/register.jsp HTTP/1.1" 200 7847
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:48:30 +0800] "GET /bookstore/images/bottomlogo.gif HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:48:30 +0800] "GET /bookstore/images/signup.gif HTTP/1.1" 200 3151
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:48:31 +0800] "GET /bookstore/imageCode HTTP/1.1" 200 2017
+0:0:0:0:0:0:0:1 - - [04/Apr/2019:10:49:26 +0800] "GET /bookstore/imageCode?time=1554346166005 HTTP/1.1" 200 2102
